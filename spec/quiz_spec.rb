@@ -9,4 +9,5 @@ describe Quiz do
     quiz = Quiz.new()
     expect(quiz.check_answer("3")).to eq "Your answer is correct"
   end
+
 end
