@@ -10,4 +10,9 @@ describe Quiz do
     expect{quiz.check_answer("3")}.to output("Your answer is correct\n").to_stdout
   end
 
+  it "We can check the wrong answer" do
+    quiz = Quiz.new()
+    expect{quiz.check_answer("4")}.to output("Your answer is not correct\n").to_stdout
+  end
+
 end
