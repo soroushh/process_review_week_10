@@ -7,7 +7,7 @@ describe Quiz do
 
   it "We can cheack the answer" do
     quiz = Quiz.new()
-    expect(quiz.check_answer("3")).to eq "Your answer is correct"
+    expect{quiz.check_answer("3")}.to output("Your answer is correct\n").to_stdout
   end
 
 end

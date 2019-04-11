@@ -5,7 +5,8 @@ class Quiz
   end
 
   def check_answer(answer = Interface.new().get_answer)
-    return "Your answer is correct" if answer =="3"
+    puts "Your answer is correct" if answer =="3"
+    puts "Your answer is not correct"
   end
 
 
