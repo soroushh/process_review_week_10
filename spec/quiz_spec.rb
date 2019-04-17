@@ -14,5 +14,4 @@ describe Quiz do
     quiz = Quiz.new()
     expect{quiz.check_answer("4")}.to output("Your answer is not correct\n").to_stdout
   end
-
 end
