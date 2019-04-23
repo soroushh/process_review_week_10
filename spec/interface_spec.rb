@@ -6,4 +6,5 @@ describe Interface do
     interface = Interface.new()
     expect(interface.get_answer(dbl1)).to eq "abc"
   end
+
 end

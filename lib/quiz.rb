@@ -12,4 +12,9 @@ class Quiz
     end
   end
 
+  def run
+    show_question
+    check_answer
+  end 
+
 end
