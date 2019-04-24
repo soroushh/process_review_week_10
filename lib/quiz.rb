@@ -15,6 +15,5 @@ class Quiz
   def run
     show_question
     check_answer
-  end 
-
+  end
 end
